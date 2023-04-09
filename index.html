@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/12514ffb2f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+          <div class="nav-text">
+            <h3 class="nav-h3">Moldir</h3>
+          </div>
+          <div class="nav-menu">
+            <ul class="nav-ul">
+              <a href="#about"> <li class="nav-list">About</li></a>
+              <a href="#projects"> <li class="nav-list">Projects</li></a>
+              <a href="#experience"> <li class="nav-list">Experience</li></a>
+              <a href="#contact"> <li class="nav-list">Contact</li></a>
+            </ul>
+          </div>
+        </nav>
+        <main class="main">
+          <h1 class="main-text wow animate__animated animate__bounce">
+            Hi, I’m Yerlan Moldir, <br />
+            I build things for the web.
+          </h1>
+          <p class="main-p">
+            I’m passionate Front-End developer, and this is my portfolio.
+          </p>
+          <form
+            method="get"
+            action="https://github.com/moldirerlan"
+            target="blank"
+          >
+            <button type="submit" class="main-button">
+              Check out my
+              <img class="github" width="30px" src="./github.svg" alt="" />
+            </button>
+          </form>
+        </main>
+      </header>
+      <section id="about" class="about">
+        <div class="about-info" data-aos="fade-left" data-aos-delay="300">
+          <h2
+            class="wow animate__animated animate__bounce about-h2"
+            data-wow-delay="1s"
+          >
+            About me
+          </h2>
+          <p class="about-p">
+            I am a solution oriented Frontend Developer, traveler, and lifelong
+            learner. I enjoy development because of the satisfaction I get by
+            overcoming challenges. I am motivated by the opportunity that
+            software provides to positively impact the life of an individual,
+            and the world as a whole.
+          </p>
+        </div>
+        <div class="about-image" data-aos="fade-right" data-aos-delay="300">
+          <img
+            src="./images/photi.jpg"
+            alt="portfolio picture"
+            class="about-img"
+          />
+        </div>
+      </section>
+
+      <!-- animations transition -->
+
+      <section id="projects" class="projects">
+        <h2
+          class="wow animate__animated animate__bounce projects-h2"
+          data-wow-delay="1s"
+        >
+          Projects I've Worked On
+        </h2>
+        <div class="projects-container">
+          <div class="project">
+            <div class="project-left" data-aos="fade-left" data-aos-delay="300">
+              <img src="./images/facebook.webp" alt="" />
+            </div>
+            <div
+              class="project-right"
+              data-aos="fade-right"
+              data-aos-delay="300"
+            >
+              <h3 class="project-name">New Facebook</h3>
+              <p class="project-p">
+                New Facebook is a revolutionary social network platfrom, that
+                make world a better place.
+              </p>
+              <ul class="project-ul">
+                <li style="margin-bottom: 24px" class="about-list">
+                  1 billion dollar revenue
+                </li>
+                <li class="about-list">10 million+ users</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="project-left" data-aos="fade-left" data-aos-delay="300">
+              <h3 class="project-name">I listen</h3>
+              <p class="project-p">
+                Website, that predicts and prevent mental issues. Using AI, it
+                can help you when nobody listens.
+              </p>
+              <ul class="project-ul">
+                <li style="margin-bottom: 24px" class="about-list">
+                  Volunteering project
+                </li>
+                <li class="about-list">Almost 200k users</li>
+              </ul>
+            </div>
+            <div
+              class="project-right"
+              data-aos="fade-right"
+              data-aos-delay="300"
+            >
+              <img class="right-img" src="./images/ilisten.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="project-left" data-aos="fade-left" data-aos-delay="300">
+              <img src="./images/family.jpg" alt="" />
+            </div>
+            <div
+              class="project-right"
+              data-aos="fade-right"
+              data-aos-delay="300"
+            >
+              <h3 class="project-name">My Family</h3>
+              <p class="project-p">
+                Most important one. I raised two beautiful children and live a
+                happy peacuful life.
+              </p>
+              <ul class="project-ul">
+                <li style="margin-bottom: 24px" class="about-list">
+                  Revenue - happiness
+                </li>
+                <li class="about-list">4 happy users</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="experience">
+        <h2 class="wow animate__animated animate__bounce projects-h2"
+          data-wow-delay="1s">Experience</h2>
+        <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+          <ul>
+            <li class="date" data-date="2035-now">
+              <h1>Indie Developer</h1>
+              <p>
+                Travel the world, while developing life changing applications.
+              </p>
+            </li>
+            <li class="date" data-date="2030-2035">
+              <h1>Netflix</h1>
+              <p>
+                Worked on part of the "Stranger Things" welcome page
+              </p>
+            </li>
+            <li class="date" data-date="2025-2030">
+              <h1>Kolesa.kz</h1>
+              <p>
+                Worked on kolesa kz, and developed interfaces for different big projects.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2
+          id="contact-scroll"
+          class="wow animate__animated animate__bounce contact-h2"
+          data-wow-delay="1s"
+        >
+          Say Hello
+        </h2>
+        <!-- telegram, and gmail icon -->
+        <p class="contact-p">I would like to cooperate :)</p>
+        <button
+          onclick="location.href='https://t.me/mooolyaa'"
+          type="submit"
+          class="contact-button"
+        >
+          Get In Touch
+        </button>
+      </section>
+
+      <!-- main footer -->
+      <footer class="footer">
+        <div class="left-footer">
+          <p>Made with ❤️ by Yerlan Moldir</p>
+        </div>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+    <script src="wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>
